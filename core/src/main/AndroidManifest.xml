@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jm.core">
+
+    <!-- 不经第三方分享所需的SD卡写权限 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<!--    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />-->
+
+    <!-- <uses-permission android:name="android.permission.CAMERA" /> -->
+    <!-- <activity android:name="com.soundcloud.android.crop.CropImageActivity" /> -->
+    <!-- <provider -->
+    <!-- android:authorities="${applicationId}.FileProvider" -->
+    <!-- android:exported="false" -->
+    <!-- android:grantUriPermissions="true" -->
+    <!-- android:name="android.support.v4.content.FileProvider"> -->
+    <!-- <meta-data -->
+    <!-- android:name="android.support.FILE_PROVIDER_PATHS" -->
+    <!-- android:resource="@xml/rc_file_path" /> -->
+    <!-- </provider> -->
+    <!-- 自动安装 -->
+
+    <application
+        android:supportsRtl="true">
+
+    </application>
+
+
+</manifest>
