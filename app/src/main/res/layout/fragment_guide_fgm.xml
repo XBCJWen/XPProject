@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jm.xpproject.ui.main.fgm.GuideFgm">
+
+    <TextView
+        android:id="@+id/tv_setting"
+        style="@style/setting_item_enter"
+        android:text="设置" />
+
+    <View style="@style/divider_gray_horizontal" />
+</LinearLayout>

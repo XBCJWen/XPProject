@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jm.xpproject.ui.setting.act.SettingAct">
+
+    <TextView
+        android:id="@+id/tv_alter_psw"
+        style="@style/setting_item_enter"
+        android:text="修改密码" />
+
+    <View style="@style/divider_gray_horizontal" />
+
+    <TextView
+        android:id="@+id/tv_bind_phone"
+        style="@style/setting_item_enter"
+        android:text="绑定手机号" />
+
+    <View style="@style/divider_gray_horizontal" />
+
+    <TextView
+        android:id="@+id/tv_suggestion"
+        style="@style/setting_item_enter"
+        android:text="意见箱" />
+
+    <View style="@style/divider_gray_horizontal" />
+
+    <TextView
+        android:id="@+id/tv_about_us"
+        style="@style/setting_item_enter"
+        android:text="关于我们" />
+
+    <View style="@style/divider_gray_horizontal" />
+
+    <TextView
+        android:id="@+id/tv_logout"
+        style="@style/setting_item_enter"
+        android:text="退出登录" />
+
+    <View style="@style/divider_gray_horizontal" />
+</LinearLayout>
